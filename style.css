@@ -1,0 +1,763 @@
+:root {
+   
+    --primary-color-1: #FFF4E7;
+    --primary-color-2: #FFFFFF;
+    --primary-color-3: #131313;
+    --primary-color-4: #FF900E;
+    --primary-color-5: #727272;
+    --primary-color-6: #424242;
+}
+
+
+body{
+    max-width: 1250px;
+    margin: 0 auto;
+   /* background-color: var(--primary-color-1); */
+   
+
+}
+/* First Block strat */
+header{
+
+    background-color: var(--primary-color-1);
+   
+  
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+li {
+list-style-type: none;
+}
+.arc{
+font: bold;
+}
+.navbar .flex {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+}
+.navbar ul {
+display: flex;
+}
+.navbar a{
+color: grey;
+padding: 9px;
+margin: 0 10px;
+}
+.skew{
+font-size: 2.5em;
+text-align: center;
+}
+.para{
+text-align: center;
+padding-top: -50px;
+padding-left: 250px;
+padding-right: 250px;
+}
+.but{
+background-color: orange;
+text-decoration-color: antiquewhite;
+margin-left: 550px;
+margin-bottom: 30px;
+color: whitesmoke;
+height: 50px;
+font-weight: 800;
+font-size: me;
+border-radius: 10px;
+
+
+border: 0;
+position: relative;
+}
+.ban-1 img{
+width: 100%;
+border-radius: 25px;
+padding-bottom: 80px;
+}
+/* First Block end */
+
+/* Second Block Start */
+
+.srt{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    
+    
+    }
+    .std img{
+    width: 100%;
+    
+    
+    }
+    .ff{
+    color: orange;
+    font-weight: 1000;
+    }
+    .qq{
+    color: gray;
+    }
+    .bd{
+    
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .write{
+    text-align: left;
+    padding-left: 50px;
+    }
+    .ss{
+    font-size: 2.5em;
+    }
+    .n-1{
+    color: grey;
+    padding-right: 300px;
+    }
+    .but-2{
+    background-color: orange;
+    text-decoration-color: antiquewhite;
+    
+    margin-bottom: 30px;
+    color: whitesmoke;
+    height: 50px;
+    font-weight: 800;
+    font-size: medium;
+    border-radius: 10px;
+    
+    
+    border: 0;
+    position: relative;
+    }
+
+/* Second Block end */
+
+/* Third Block Starts */
+
+.features-list-container {
+
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 150px;
+
+}
+
+.features-list-container1 {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+
+
+.list-text {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color-3);
+    border-left: 5px solid var(--primary-color-4);
+    padding-left: 8px;
+}
+
+.list-description-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-5);
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.list-card {
+    padding: 30px 33px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 28px;
+}
+
+.list-card-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color-3);
+    margin-bottom: 10px;
+}
+
+.list-card-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-5);
+}
+
+.see{
+    width: 100%;
+}
+
+
+.btn-div {
+    position: absolute;
+    left: 590px;
+    bottom: -50px;
+
+}
+
+.fat-btn {
+    font-weight: 700;
+    font-size: 55px;
+    color: var(--primary-color-2);
+    background-color: var(--primary-color-4);
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+.fat-btn-span {
+    display: block;
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--primary-color-2);
+}
+
+/* Third Block Ends */
+
+/* Extra starts */
+
+
+.our-last-projects {
+    max-width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.project-text {
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary-color-3);
+
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 28px;
+    grid-column-gap: 15px;
+    padding: 5px;
+}
+
+
+.project-cart {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+.place {
+    font-size: 20px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.project-cart img {
+    height: 280px;
+    width: 370px;
+}
+/* Extra Ends */
+
+/* Fourth Block Starts */
+
+.achievements-section {
+    max-width: 100vw;
+
+    margin: 0 auto;
+}
+
+.some-fact-text {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color-3);
+}
+
+.some-fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-6);
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.achievement-cart {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 25px;
+    transition: width 3s 0.5s, height 2s,  transform 1s;
+
+}
+
+.achievement-cart:hover{
+    width: 250px;
+    height: 200px;
+   transform-origin: top left;
+    transform: rotate(60deg);
+   
+}
+
+.total-number {
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--primary-color-5);
+}
+
+.achievement-topic {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color-5);
+}
+
+
+/* Fourth Block*/
+
+/* Fifth Block Start */
+
+.our-sponspors {
+    margin-top: 150px;
+    max-width: 100vw;
+
+    margin: 0 auto;
+    margin-top: 180px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.sponspors-heading-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color-3);
+
+}
+
+.sponspors-heading-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-5);
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.sopnspors-list {
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale();
+}
+
+
+
+/* Fifth Block End */
+
+
+
+/* Footer Start */
+
+footer {
+    /* max-width: 1350px; */
+    background-color: var(--primary-color-1);
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    margin-bottom: 150px;
+}
+
+.copyright-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--primary-color-6);
+}
+
+/* Footer End */
+
+/* ...................MOBILE DEVICE................................................. */
+
+
+@media screen and (max-width: 576px){
+    html {
+        font-size: 50%;
+    }
+
+    body{
+        max-width: 576px;
+        margin: 0 auto;
+       /* background-color: var(--primary-color-1); */
+       
+    
+    }
+    /* First Block strat */
+header{
+
+    background-color: var(--primary-color-1);
+   
+  
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+li {
+list-style-type: none;
+}
+.arc{
+font: bold;
+}
+ .navbar .flex{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+
+height: 100%;
+}
+.navbar ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-end: auto;
+    }
+
+    .navbar a{
+    color: grey;
+    padding: 9px;
+    margin: 0 10px;
+    }
+
+.skew{
+font-size: 1.5em;
+text-align: center;
+}
+.para{
+text-align: center;
+padding-top: -50px;
+padding-left: 100px;
+padding-right: 100px;
+}
+.but{
+background-color: orange;
+text-decoration-color: antiquewhite;
+margin-left: 150px;
+margin-bottom: 30px;
+color: whitesmoke;
+height: 20px;
+font-weight: 400;
+font-size: 16px;
+border-radius: 10px;
+
+
+border: 0;
+position: relative;
+}
+.ban-1 img{
+width: 100%;
+border-radius: 25px;
+padding-bottom: 80px;
+}
+/* First Block end */
+
+/* Second Block Start */
+
+.srt{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    
+    
+    }
+    .std img{
+    width: 100%;
+    
+    
+    }
+    .ff{
+    color: orange;
+    font-weight: 1000;
+    }
+    .qq{
+    color: gray;
+    }
+    .bd{
+    
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .write{
+    text-align: left;
+    padding-left: 50px;
+    }
+    .ss{
+    font-size: 2.5em;
+    }
+    .n-1{
+    color: grey;
+    padding-right: 100px;
+    }
+    .but-2{
+    background-color: orange;
+    text-decoration-color: antiquewhite;
+    
+    margin-bottom: 30px;
+    color: whitesmoke;
+    height: 30px;
+    font-weight: 400;
+    font-size: medium;
+    border-radius: 10px;
+    
+    
+    border: 0;
+    position: relative;
+    }
+
+/* Second Block end */
+
+/* Third Block Starts */
+
+.features-list-container {
+
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 150px;
+
+}
+
+.features-list-container1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 70px;
+}
+
+
+
+.list-text {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color-3);
+    border-left: 5px solid var(--primary-color-4);
+    padding-left: 8px;
+}
+
+.list-description-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-5);
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.list-card {
+    padding: 30px 33px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 28px;
+}
+
+.list-card-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color-3);
+    margin-bottom: 10px;
+}
+
+.list-card-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-5);
+}
+
+.see{
+    width: 100%;
+}
+.btn-div{
+    display: none;
+}
+
+/* Third Block Ends */
+
+/* Extra starts */
+
+
+.our-last-projects {
+    max-width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.project-text {
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary-color-3);
+
+}
+
+.projects-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 28px;
+    grid-column-gap: 15px;
+    padding: 5px;
+}
+
+
+.project-cart {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+.place {
+    font-size: 20px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.project-cart img {
+    height: 280px;
+    width: 370px;
+}
+/* Extra Ends */
+
+/* Fourth Block Starts */
+
+.achievements-section {
+    max-width: 100vw;
+
+    margin: 0 auto;
+}
+
+.some-fact-text {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color-3);
+}
+
+.some-fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-6);
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.achievements-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.achievement-cart {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 25px;
+    transition: width 3s 0.5s, height 2s,  transform 1s;
+
+}
+
+.achievement-cart:hover{
+    width: 250px;
+    height: 200px;
+   transform-origin: top left;
+    transform: rotate(60deg);
+   
+}
+
+.total-number {
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--primary-color-5);
+}
+
+.achievement-topic {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color-5);
+}
+
+
+/* Fourth Block*/
+
+/* Fifth Block Start */
+
+.our-sponspors {
+    margin-top: 150px;
+    max-width: 100vw;
+
+    margin: 0 auto;
+    margin-top: 180px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.sponspors-heading-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color-3);
+
+}
+
+.sponspors-heading-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color-5);
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.sopnspors-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    filter: grayscale();
+}
+
+
+
+/* Fifth Block End */
+
+
+
+/* Footer Start */
+
+footer {
+    /* max-width: 1350px; */
+    background-color: var(--primary-color-1);
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    margin-bottom: 150px;
+}
+
+.copyright-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--primary-color-6);
+}
+
+/* Footer End */
+
+}
+
+
+
+/* ..........................MOBILE DEVICE ENDS..................................... */
